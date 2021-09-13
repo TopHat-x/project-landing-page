@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    margin: 16px 256px 32px 256px;
+}
+
+.hodor-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.header-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0 0 0 auto;
+    padding: 0;
+    justify-content: center;
+    gap: 32px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-main {
+    display: flex;
+    margin: 32px 256px 128px 256px;
+    align-items: center;
+}
+
+.header-left {
+    margin-right: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hleft-title {
+    margin: 0 0 0 0;
+}
+
+.hodor-large {
+    width: 400px;
+    height: 238px;
+}
+
+.button1 {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 6px;
+    border: none;
+    padding: 4px 16px 4px 16px;
+    margin: 0 auto 0 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+p {
+    text-align: center;
+}
+
+.image-group-container {
+    display: flex;
+    justify-content: center;
+}
+
+.small-image {
+    width: 200px;
+    height: 200px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
