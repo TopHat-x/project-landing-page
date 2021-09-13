@@ -58,13 +58,23 @@ a {
     height: 238px;
 }
 
-.button1 {
+.button1, 
+.button2 {
     color: #F9FAF8;
     background-color: #3882F6;
     border-radius: 6px;
     border: none;
     padding: 4px 16px 4px 16px;
+    
+}
+
+.button1 {
     margin: 0 auto 0 0;
+}
+
+.button2 {
+    border: 3px solid #E5E7EB;
+    margin: 0 0 0 auto;
 }
 
 .main {
@@ -104,6 +114,20 @@ p {
     padding: 64px 256px 64px 256px;
     display: flex;
     flex-direction: column;
+}
+
+.sign-up {
+    margin: 150px 250px 150px 250px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 50px 100px 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-title {
+    font-weight: bold;
 }
 
 .main-text {
